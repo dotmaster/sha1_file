@@ -1,0 +1,21 @@
+{
+  "name": "sha1_file",
+  "description": "A simple utility for getting the SHA1 hash of a file",
+  "version": "0.0.1",
+  "tags": [
+       "sha1"
+       "file"
+   ],  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dotmaster/sha1-file.git"
+  },
+  "author": "Gregor Schwab <greg@synaptic-labs.net> (www.synaptic-labs.net)",
+  "main": "sha1_file.js",
+  "directories": {
+    "lib": "."
+  },
+  "engines": {
+    "node": ">=0.2.0"
+  }
+}
