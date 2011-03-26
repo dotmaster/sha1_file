@@ -3,7 +3,7 @@
   "description": "A simple utility for getting the SHA1 hash of a file",
   "version": "0.0.1",
   "tags": [
-       "sha1"
+       "sha1",
        "file"
    ],  
   "repository": {
