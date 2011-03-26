@@ -20,7 +20,9 @@ In Javascript:
  
      //then somewhere in your code
  
-     sha1_file(fileName);
+     sha1_file('../README.md', function(sha1){
+       require('util').log(sha1)
+     })
 
 
 ## Credits
