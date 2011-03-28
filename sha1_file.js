@@ -24,7 +24,7 @@ var sha1_file = function(fileName, cb) {
   			return cb(err);
   		}
   		
-		  var read_len = 1024 || stats.blksize,
+		  var read_len = 1024 * 64 || stats.blksize,
 			  offset = 0;
       var dat= new Buffer(read_len);
 
@@ -36,8 +36,6 @@ var sha1_file = function(fileName, cb) {
   				if(err){
   					return cb(err);
   				}
-  				sha1.update(dat); 
-  				console.log(dat.length)
   				offset += read_len;
   				//less than blksize bytes left
   				if( read_len > stats.size - offset && offset < stats.size){
