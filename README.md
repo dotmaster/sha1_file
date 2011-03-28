@@ -1,7 +1,7 @@
 SHA1 File: A simple utility for getting the SHA1 of a file
 ============================================
 
-This module is a super simple utility for getting the SHA1 hash of a file 
+This module is a super simple, super fast (using file stream) utility for getting the SHA1 hash of a file 
 
 
 ## How to use
